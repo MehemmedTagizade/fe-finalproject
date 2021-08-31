@@ -15863,7 +15863,8 @@ footer {
     list-style: square; }
 
 .page_country {
-  background-color: #0F0D1E; }
+  background-color: #0F0D1E;
+  color: white; }
   .page_country h1, .page_country .h1 {
     margin-top: 100px; }
   .page_country .country_img {
@@ -15893,8 +15894,127 @@ footer {
     margin-top: 120px;
     margin-bottom: 50px; }
   .after_co_list a {
-    border-radius: 8px;
+    border-radius: 6px;
     border: 1px solid transparent;
     padding: 16px 32px;
     background-color: #5B35D5;
-    margin-bottom: 100px; }
+    margin-bottom: 100px;
+    display: inline-block; }
+
+.buildgd {
+  background-color: #1B1734;
+  color: white; }
+  .buildgd h2, .buildgd .h2 {
+    font-size: 40px;
+    margin-top: 100px;
+    margin-top: 50px; }
+
+.four-card {
+  padding: 15px;
+  background-color: #1B1734;
+  color: white; }
+  .four-card .icon-module {
+    margin-top: 100px;
+    margin-bottom: 30px;
+    width: 20%; }
+  .four-card h3, .four-card .h3 {
+    font-size: 20px;
+    font-weight: 500d; }
+  .four-card .paragraph-module {
+    color: #adaabf; }
+  .four-card .arrowtext {
+    display: flex;
+    margin-bottom: 10px; }
+    .four-card .arrowtext p {
+      color: #867df3; }
+    .four-card .arrowtext .link-arrow {
+      margin-bottom: 14px; }
+
+.start_blog {
+  height: 1200px; }
+  .start_blog .tabs .bttn {
+    background-color: #322B5F;
+    margin-right: 10px;
+    padding: 16px 24px;
+    margin-bottom: 10px;
+    border-radius: 4px; }
+  .start_blog .tabs .active {
+    background-color: transparent;
+    border: 1px solid #66E7D8; }
+  .start_blog .tabs .tabss {
+    display: flex;
+    flex-wrap: wrap; }
+
+.cards_blog {
+  margin-top: 100px;
+  bottom: -100px; }
+  .cards_blog .blog_cards {
+    margin-bottom: 50px; }
+    .cards_blog .blog_cards .img {
+      position: relative; }
+      .cards_blog .blog_cards .img .img1-text {
+        position: absolute;
+        bottom: 20px;
+        left: 30px;
+        background-color: #5B35D5; }
+      .cards_blog .blog_cards .img .img_ss {
+        width: 100%;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px; }
+    .cards_blog .blog_cards .after_img {
+      padding: 40px;
+      background-color: #1B1734;
+      color: #adaabf; }
+      .cards_blog .blog_cards .after_img .homepage1 {
+        font-size: 23px;
+        color: white; }
+  .cards_blog .blog_part {
+    display: none; }
+  .cards_blog .active1 {
+    display: block; }
+
+.login_start .left_side_login {
+  background-color: #f8f8fc;
+  padding: 0 100px;
+  text-align: center; }
+  .login_start .left_side_login .login_logo {
+    margin-top: 50px; }
+  .login_start .left_side_login .p_first {
+    margin-top: 150px;
+    margin-bottom: 50px;
+    color: #5b557f;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 0 60px; }
+  .login_start .left_side_login .p_second {
+    color: #84809f;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 50px; }
+  .login_start .left_side_login .svg_end {
+    margin-bottom: 9 0px; }
+
+.login_start .right_side {
+  margin-top: 160px;
+  padding-left: 200px; }
+  .login_start .right_side .text_top h1, .login_start .right_side .text_top .h1 {
+    margin-bottom: 50px; }
+
+.login_start input {
+  display: block;
+  width: 350px;
+  padding: 8px 16px;
+  border-radius: 4px;
+  border: 1px solid; }
+
+.login_start .login_btn {
+  color: white;
+  margin-top: 25px;
+  background-color: #5B35D5; }
+
+.login_start a {
+  color: blue;
+  text-decoration-line: underline; }
+
+.login_start hr {
+  width: 60%; }
