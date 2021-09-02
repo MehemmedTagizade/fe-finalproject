@@ -15620,7 +15620,9 @@ nav .nav {
           display: block;
           text-align: end;
           padding-top: 30px;
-          margin-right: 100px; } }
+          margin-right: 100px;
+          position: relative;
+          z-index: 1; } }
 
 .right-side.activeburger {
   transform: translateY(150%);
