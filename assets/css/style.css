@@ -16069,6 +16069,12 @@ header {
       font-weight: 500;
       text-align: left;
       letter-spacing: 1.5px; }
+      .section3-four-part .section3-fr .asd_fr .sec_fr .text_left_fr .heading-eyebrow_fr.syan {
+        color: #00d8be; }
+      .section3-four-part .section3-fr .asd_fr .sec_fr .text_left_fr .heading-eyebrow_fr.f18c {
+        color: #f18c33; }
+      .section3-four-part .section3-fr .asd_fr .sec_fr .text_left_fr .heading-eyebrow_fr.syan2 {
+        color: #33abd1; }
     .section3-four-part .section3-fr .asd_fr .sec_fr .text_left_fr .heading-small_fr {
       line-height: 140%;
       font-weight: 600;
@@ -16210,6 +16216,60 @@ header {
       margin-bottom: 100px;
       padding-right: 40px;
       width: 71%;
-      margin-left: 40px;
+      margin-left: 58px;
       border-top-left-radius: 8px;
       border-top-right-radius: 8px; } }
+
+.section4 {
+  background-color: #1B1734;
+  color: white;
+  display: flex; }
+  .section4 .sc_4 .sc_4_row .sc_4_col {
+    margin-top: 100px;
+    margin-bottom: 24px;
+    display: flex;
+    justify-content: center; }
+    .section4 .sc_4 .sc_4_row .sc_4_col .sc_4h2 {
+      text-align: center;
+      max-width: 540px;
+      font-size: 48px;
+      line-height: 120%;
+      font-weight: 600;
+      margin-bottom: 55px; }
+  .section4 .sc_4 .sc_4_row .sc_4_2 {
+    text-align: center;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    margin-left: 20px; }
+    .section4 .sc_4 .sc_4_row .sc_4_2 .dsc_4 .whitesc_4 {
+      font-size: 20px;
+      line-height: 150%;
+      font-weight: 500; }
+    .section4 .sc_4 .sc_4_row .sc_4_2 .dsc_4 .p-div .night40sc_4 {
+      max-width: 80%;
+      min-height: auto;
+      min-width: auto;
+      margin-top: 10px;
+      margin-bottom: 103px;
+      color: #adaabf;
+      font-size: 20px;
+      font-weight: 300; }
+  .section4 .book {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px; }
+    .section4 .book a {
+      text-decoration: none;
+      color: white;
+      padding: 16px 32px;
+      font-size: 17px;
+      background-color: #5B35D5;
+      border: 1px solid transparent;
+      border-radius: 8px; }
+      .section4 .book a:hover {
+        background-color: #7460ef; }
