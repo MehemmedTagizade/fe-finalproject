@@ -45,27 +45,23 @@ burger.onclick = () => {
 // nav-dropdown-//
 
 
-// const chevronDowns = Array.from(document.querySelector(".nav .right_side .links .links_ul .ox"));
+const chevronDowns = Array.from(document.querySelectorAll(".nav .right_side .links .links_ul .ox"));
+// console.log(chevronDowns)
 const contentNames = Array.from(document.querySelectorAll(".nav .right_side .links .links_ul .sub_menu"));
 const dropContents = Array.from(document.querySelectorAll(".nav .right_side .links .links_ul .dropdwn12"));
 
-// tabNavigations.forEach(tabNavigation => {
-//     tabNavigation.onclick = () => {
-//         clearActives();
-//         event.preventDefault();
-//         const targetId = tabNavigation.getAttribute("data_bttn_a");
-//         const targetContent = document.getElementById(targetId)
-//         tabNavigation.classList.add("active2");
-//         targetContent.classList.add("active1")
 
-//     }
-// });
 contentNames.forEach(contentName => {
     contentName.onclick = () => {
         event.preventDefault();
         const targetDropId = contentName.getAttribute("data-sub");
         const targetContentbyId = document.getElementById(targetDropId);
         targetContentbyId.classList.toggle("active7");
+chevronDowns.forEach(chevronDown =>{
+    
+    chevronDown.classList.toggle("active12")
+})
+
     }
 })
 
