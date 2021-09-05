@@ -17334,3 +17334,178 @@ footer {
             color: #867df3; }
           .country .four-card .fc_row .fc_col .arrowtext .link-arrow {
             margin-bottom: 14px; } }
+
+.login_start {
+  background-color: white; }
+  .login_start .left_side_login {
+    background-color: #f8f8fc;
+    padding: 0 95px;
+    text-align: center; }
+    .login_start .left_side_login .login_logo {
+      margin-top: 30px; }
+    .login_start .left_side_login .p_first {
+      margin-top: 260px;
+      margin-bottom: 50px;
+      color: #5b557f;
+      font-size: 24px;
+      font-weight: 600;
+      padding: 0 50px; }
+    .login_start .left_side_login .p_second {
+      color: #84809f;
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 50px; }
+    .login_start .left_side_login .svg_end {
+      margin-bottom: 9 0px; }
+  .login_start .right_side_col {
+    padding-left: 203px;
+    margin-top: 119px; }
+    .login_start .right_side_col .right_side {
+      width: 350px;
+      background-color: white; }
+      .login_start .right_side_col .right_side .bqPRPL {
+        font-size: 32px;
+        line-height: 140%;
+        font-weight: 600; }
+      .login_start .right_side_col .right_side .hcqfvN {
+        margin-top: 32px;
+        font-size: 16px;
+        line-height: 150%;
+        font-weight: 400;
+        margin-bottom: 30px; }
+      .login_start .right_side_col .right_side input {
+        display: block;
+        width: 100%;
+        padding: 8px 16px;
+        border-radius: 4px;
+        border: 1px solid;
+        margin-bottom: 20px; }
+      .login_start .right_side_col .right_side .login_btn {
+        color: white;
+        margin-top: 25px;
+        background-color: #5B35D5; }
+      .login_start .right_side_col .right_side a {
+        color: blue;
+        text-decoration-line: underline; }
+      .login_start .right_side_col .right_side hr {
+        width: 60%; }
+
+@media screen and (max-width: 1079px) {
+  .login_start {
+    background-color: white; }
+    .login_start .login_row {
+      display: flex;
+      flex-direction: column; }
+      .login_start .login_row .left_side_login {
+        background-color: #f8f8fc;
+        padding: 0 95px;
+        text-align: center; }
+        .login_start .login_row .left_side_login .login_logo {
+          float: left; }
+        .login_start .login_row .left_side_login .p_first {
+          display: none;
+          margin-top: 260px;
+          margin-bottom: 50px;
+          color: #5b557f;
+          font-size: 24px;
+          font-weight: 600;
+          padding: 0 50px; }
+        .login_start .login_row .left_side_login .p_second {
+          display: none;
+          color: #84809f;
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 50px; }
+        .login_start .login_row .left_side_login .svg_end {
+          display: none;
+          margin-bottom: 9 0px; }
+      .login_start .login_row .right_side_col {
+        margin: 30px auto; }
+        .login_start .login_row .right_side_col .right_side {
+          width: 350px;
+          background-color: white; }
+          .login_start .login_row .right_side_col .right_side .bqPRPL {
+            font-size: 32px;
+            line-height: 140%;
+            font-weight: 600; }
+          .login_start .login_row .right_side_col .right_side .hcqfvN {
+            margin-top: 32px;
+            font-size: 16px;
+            line-height: 150%;
+            font-weight: 400;
+            margin-bottom: 30px; }
+          .login_start .login_row .right_side_col .right_side input {
+            display: block;
+            width: 100%;
+            padding: 8px 16px;
+            border-radius: 4px;
+            border: 1px solid;
+            margin-bottom: 20px; }
+          .login_start .login_row .right_side_col .right_side .login_btn {
+            color: white;
+            margin-top: 25px;
+            background-color: #5B35D5; }
+          .login_start .login_row .right_side_col .right_side a {
+            color: blue;
+            text-decoration-line: underline; }
+          .login_start .login_row .right_side_col .right_side hr {
+            width: 60%; } }
+
+@media screen and (max-width: 992px) {
+  .login_start {
+    background-color: white; }
+    .login_start .login_row {
+      display: flex;
+      flex-direction: column; }
+      .login_start .login_row .left_side_login {
+        background-color: #f8f8fc;
+        padding: 0 95px;
+        text-align: center; }
+        .login_start .login_row .left_side_login .login_logo {
+          float: left; }
+        .login_start .login_row .left_side_login .p_first {
+          display: none;
+          margin-top: 260px;
+          margin-bottom: 50px;
+          color: #5b557f;
+          font-size: 24px;
+          font-weight: 600;
+          padding: 0 50px; }
+        .login_start .login_row .left_side_login .p_second {
+          display: none;
+          color: #84809f;
+          font-size: 16px;
+          font-weight: 600;
+          margin-bottom: 50px; }
+        .login_start .login_row .left_side_login .svg_end {
+          display: none;
+          margin-bottom: 9 0px; }
+      .login_start .login_row .right_side_col .right_side {
+        width: 350px;
+        background-color: white; }
+        .login_start .login_row .right_side_col .right_side .bqPRPL {
+          font-size: 32px;
+          line-height: 140%;
+          font-weight: 600; }
+        .login_start .login_row .right_side_col .right_side .hcqfvN {
+          margin-top: 32px;
+          font-size: 16px;
+          line-height: 150%;
+          font-weight: 400;
+          margin-bottom: 30px; }
+        .login_start .login_row .right_side_col .right_side input {
+          display: block;
+          width: 100%;
+          padding: 8px 16px;
+          border-radius: 4px;
+          border: 1px solid;
+          margin-bottom: 20px; }
+        .login_start .login_row .right_side_col .right_side .login_btn {
+          color: white;
+          margin-top: 25px;
+          background-color: #5B35D5; }
+        .login_start .login_row .right_side_col .right_side a {
+          color: blue;
+          text-decoration-line: underline; }
+        .login_start .login_row .right_side_col .right_side hr {
+          width: 60%; } }
