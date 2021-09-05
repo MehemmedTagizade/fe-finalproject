@@ -1,33 +1,33 @@
-// blog//
-// const tabNavigations = Array.from(document.querySelectorAll(".bttn"));
+
+const tabNavigations = Array.from(document.querySelectorAll(".bttn"));
 
 
-// const tabContents = Array.from(document.querySelectorAll(".cards_blog .blog_part"));
+const tabContents = Array.from(document.querySelectorAll(".cards_blog .blog_part"));
 
-// const clearActives = () => {
-//     tabNavigations.forEach(tabNavigation => {
-//         tabNavigation.classList.remove("active2");
-//     });
+const clearActives = () => {
+    tabNavigations.forEach(tabNavigation => {
+        tabNavigation.classList.remove("active2");
+    });
 
-//     tabContents.forEach(tabContent => {
-//         tabContent.classList.remove("active1");
-//     });
-
-
-// }
+    tabContents.forEach(tabContent => {
+        tabContent.classList.remove("active1");
+    });
 
 
-// tabNavigations.forEach(tabNavigation => {
-//     tabNavigation.onclick = () => {
-//         clearActives();
-//         event.preventDefault();
-//         const targetId = tabNavigation.getAttribute("data_bttn_a");
-//         const targetContent = document.getElementById(targetId)
-//         tabNavigation.classList.add("active2");
-//         targetContent.classList.add("active1")
+}
 
-//     }
-// });
+
+tabNavigations.forEach(tabNavigation => {
+    tabNavigation.onclick = () => {
+        clearActives();
+        event.preventDefault();
+        const targetId = tabNavigation.getAttribute("data_bttn_a");
+        const targetContent = document.getElementById(targetId)
+        tabNavigation.classList.add("active2");
+        targetContent.classList.add("active1")
+
+    }
+});
 
 //blog end///
 
